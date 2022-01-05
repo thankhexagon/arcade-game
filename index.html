@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div style="text-align: center">
+      <iframe src="https://v6p9d9t4.ssl.hwcdn.net/html/5031387/html5/index.html" height=728px width=984px frameborder="0">
+      </iframe>
+    </div>
+  </body>
+  <script>
+    if (window.addEventListener) {
+      window.addEventListener("message", onMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", onMessage, false);
+    }
+
+    function onMessage(event) {
+      // TODO: Check event origin to be trusted
+      // if (event.origin === "http://example.com") return;
+
+      var data = event.data;
+
+      if (typeof(window[data.func]) == "function") {
+        window[data.func].call(null, data.message);
+      }
+    }
+
+    async function connectWallet(message) {
+      try {
+        const response = await window.solana.connect();
+        setPublicKey(response.publicKey.toString());
+      } catch (error) {
+        console.log("connectWallet() error: ", error);
+      }
+    }
+
+    function setPublicKey(publicKey) {
+      window.frames[0].postMessage({
+          'func': 'setPublicKey',
+          'message': publicKey
+      }, "*"); // TODO: Use target origin instead of *
+    }
+
+  </script>
+</html>
