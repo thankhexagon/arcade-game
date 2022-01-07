@@ -2,6 +2,8 @@
 
 Welcome to Onigiri Town's first P2E arcade game, [Onigiri Racing](https://thankhexagon.github.io/arcade-game/).
 
+![screenshot copy](https://user-images.githubusercontent.com/94743850/148542681-517d63d7-bb36-44a9-aab2-c8550fb47c0a.png)
+
 ## Instructions
 
 1. Go to [Onigiri Racing](https://thankhexagon.github.io/arcade-game/).
