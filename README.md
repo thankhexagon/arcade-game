@@ -18,3 +18,25 @@ Welcome to Onigiri Town's first P2E arcade game, [Onigiri Racing](https://thankh
 
 ## Contact
 To report any issues or bugs, please join our [Discord](http://discord.gg/YvhJUWR42U).
+
+## Credits
+Art:
+- Sprites: @backwardsmango
+- Colours: https://lospec.com/palette-list/vinik24
+
+Audio:
+- Music for Racing Screen: https://opengameart.org/content/3-short-looping-nes-style-songs
+- Victory Sound: https://opengameart.org/content/victory-2
+- Loss Sound: https://freesound.org/people/Daleonfire/sounds/406113/
+
+Fonts:
+- MonsterFriendFore: https://www.dafont.com/monster-friend-fore.font
+- Press Start 2P: https://www.dafont.com/press-start-2p.font
+
+Game Engine:
+- Godot: https://godotengine.org/
+
+Programming:
+- Game Logic: @thankhexagon
+- Leaderboard System: https://silentwolf.com
+- Rainbow Gradient Shader: https://godotshaders.com/shader/moving-rainbow-gradient/
