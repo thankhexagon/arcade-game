@@ -1,20 +1,19 @@
-# Onigiri Racing
+# Onigiri Arcade
 
-Welcome to Onigiri Town's first P2E arcade game, [Onigiri Racing](https://thankhexagon.github.io/arcade-game/).
+Welcome to Onigiri Town's P2E arcade! The current game is Onigiri Kuzushi!
 
-![screenshot copy](https://user-images.githubusercontent.com/94743850/148542681-517d63d7-bb36-44a9-aab2-c8550fb47c0a.png)
+![screenshot](https://user-images.githubusercontent.com/94743850/154794438-9c2bedb9-3c1a-4388-a7cc-247f02ca43d5.png)
 
 ## Instructions
 
-1. Go to [Onigiri Racing](https://thankhexagon.github.io/arcade-game/) on a non-mobile device.
+1. Go to https://thankhexagon.github.io/arcade-game/ on a non-mobile device.
 2. Connect a Phantom wallet that has at least 1 Onigiri NFT (all other Solana wallets have not been tested and may not work).
 3. Choose the Onigiri NFT that you'd like to use and play!
 
 ## Notes
 
-1. If your connected wallet contains 1 of our 24 Christmas gifts, a four-leaf clover will appear in the top-right corner of the game and increase your chances of receiving power-ups during races.
-2. To register your username for our leaderboard and become eligible for prizes, please share your wallet address in #wallet-registration on [Discord](http://discord.gg/YvhJUWR42U).
-3. Full details and rules are listed on our [Discord](http://discord.gg/YvhJUWR42U).
+1. To register your username for our leaderboard and become eligible for prizes, please share your wallet address in #wallet-registration on [Discord](http://discord.gg/YvhJUWR42U).
+2. Full details and rules are listed on our [Discord](http://discord.gg/YvhJUWR42U).
 
 ## Contact
 To report any issues or bugs, please join our [Discord](http://discord.gg/YvhJUWR42U).
